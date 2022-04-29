@@ -31,15 +31,12 @@
     background: linear-gradient(to right, var(--color1) 0%, var(--color3) 90%);
     background-size: 800px;
     border-radius: 5px;
-    color: white
+    color: white;
+    cursor: pointer;
 }
 
 .monster button:hover{
     animation: slider 1s forwards;
-}
-
-.vsImage{
-    height: 100px;
 }
 
 @keyframes slider {
@@ -50,4 +47,8 @@
         background-position: 100%;
         color: black;
     }
+}
+
+.vsImage{
+    height: 100px;
 }

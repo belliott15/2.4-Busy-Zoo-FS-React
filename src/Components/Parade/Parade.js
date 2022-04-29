@@ -26,6 +26,7 @@ export default function Parade({ mysticalCreatures, isOpen, setMysticalCreatures
   return (
     <div className='parade-container'>
       <div className='parade-container'>
+        {isOpen && <h2>Creature Parade</h2>}
         <div className='creatures'>
           {isOpen ? mysticalCreatures.map((mysticalCreature, i) => <MysticalEmoji key={mysticalCreature + i} mysticalCreature={mysticalCreature} />) : ''}
         </div>

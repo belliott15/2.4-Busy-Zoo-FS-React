@@ -21,9 +21,7 @@ function App() {
       </header>
       <main className='App-main'>
         <div className='OpenOrClosed'>
-          <OpenOrClosed isOpen={isOpen}/>
-          <button onClick={() => setIsOpen(true)}>Open Zoo</button>
-          <button onClick={() => setIsOpen(false)}>Close Zoo</button>
+          <OpenOrClosed isOpen={isOpen} setIsOpen={setIsOpen}/>
         </div>
         <BattleArena chimeraHealth={chimeraHealth} setChimeraHealth={setChimeraHealth} griffinHealth={griffinHealth} setGriffinHealth={setGriffinHealth} isOpen={isOpen}/>
         <Parade mysticalCreatures={mysticalCreatures} setMysticalCreatures={setMysticalCreatures} isOpen={isOpen}/>
