@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');body{
-  --color1: #1f2b84;
-  --color2: #2983c8;
-  --color3: #c6c340;
-  --color4: #92f759;
-  --color5: #3ce6ab;
+  --color1: #393E60;
+  --color2: #5F465C;
+  --color3: #D0C2A8;
+  --color4: #E8DEB9;
+  --color5: #8A626B;
 }
 
 .App {
@@ -12,11 +12,12 @@
 }
 
 .App-header {
-  background-color: rgb(184, 184, 184);
-  min-height: 10vh;
+  background-color: var(--color3);
+  min-height: 12vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   font-size: calc(25px + 2vmin);
   font-weight: 500;
@@ -26,28 +27,22 @@
 }
 
 .header-logo{
-    height: 100px;
-    position: absolute;
-    right: 45px;
-    top: 0px;
+    height: 200px;
 }
 
 .App-main{
-  background-color: #fcfcfc;
+  background-color: var(--color5);
   height: 85vh;
 }
 
 .battle-arena{
   display: flex;
   justify-content: center;
-  width: 95%;
-  height: 20vh;
+  align-items: center;
+  height: 30vh;
   width: 100%;
-  border: black solid 2px;
-  background-color: rgb(90, 86, 86);
-  border-radius: 10px;
+  background-color: var(--color5);
 }
-
 
 .monster{
   display: flex;
@@ -55,6 +50,27 @@
   justify-content: center;
   align-items: center;
   margin: 20px;
+}
+
+.vsImage{
+  height: 100px;
+}
+
+.parade-container{
+  height: 30vh;
+  background-color: var(--color5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.creatures{
+  margin: 7px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-footer{
@@ -67,6 +83,9 @@
   justify-content: flex-end;
   align-items: flex-end;
   font-weight: 500;
+  position: absolute;
+  bottom: -38vh;
+  width: 100%;
 }
 
 

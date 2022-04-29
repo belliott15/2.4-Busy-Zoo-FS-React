@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.OpenOrClosed{
+    height: 40vh;
+    background-color: var(--color1);
+  }
+
+  .sign{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.neon{
+    font-family: 'varela Round', Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 16px #fff,
+    0 0 36px rgb(126, 27, 169),
+    0 0 50px rgb(126, 27, 169),
+    0 0 120px rgb(126, 27, 169)
+    ;
+}

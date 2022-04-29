@@ -1,10 +1,9 @@
 import React from 'react';
 import './Header.css';
 
-export default function Header({ text }) {
+export default function Header() {
   return (
     <div className='header'>
-      {text}
       <img className='header-logo' src='./BusyZooLogo.png' />
     </div>
   );
