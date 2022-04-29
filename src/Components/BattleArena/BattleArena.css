@@ -4,16 +4,50 @@
     align-items: center;
     width: 100%;
     background-color: var(--color5);
-  }
-  
-  .monster{
+}
+
+.monster{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 60px 0px 60px;
+    height: 200px;
+    width: 200px;
+}
+
+.button-container{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-  }
-  
-  .vsImage{
+}
+
+.monster button{
+    font-size: 1rem;
+    border: none;
+    margin: 5px;
+    width: 150px;
+    height: 25px;
+    background: linear-gradient(to right, var(--color1) 0%, var(--color3) 90%);
+    background-size: 800px;
+    border-radius: 5px;
+    color: white
+}
+
+.monster button:hover{
+    animation: slider 1s forwards;
+}
+
+.vsImage{
     height: 100px;
-  }
+}
+
+@keyframes slider {
+    0%{
+        background-position: 0%, 50%, 100%;
+    }
+    100%{
+        background-position: 100%;
+        color: black;
+    }
+}
