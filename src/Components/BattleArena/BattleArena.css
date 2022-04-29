@@ -1,0 +1,19 @@
+.battle-arena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color5);
+  }
+  
+  .monster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .vsImage{
+    height: 100px;
+  }

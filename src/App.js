@@ -29,7 +29,7 @@ function App() {
         <Parade mysticalCreatures={mysticalCreatures} setMysticalCreatures={setMysticalCreatures} isOpen={isOpen}/>
       </main>
       <footer className='App-footer'>
-        <Footer text={'ShowdownZoo@BattleReady.com'}/>
+        <Footer text={'DoYouBelieve@TerrifyingCreatures.com'}/>
       </footer>
     </div>
   );

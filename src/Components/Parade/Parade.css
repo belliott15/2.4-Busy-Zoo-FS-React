@@ -1,0 +1,15 @@
+.parade-container{
+    height: 30vh;
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .creatures{
+    margin: 7px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

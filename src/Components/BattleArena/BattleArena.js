@@ -1,4 +1,5 @@
 import React from 'react';
+import './BattleArena.css';
 
 export default function BattleArena({ chimeraHealth, setChimeraHealth, griffinHealth, setGriffinHealth, isOpen }) {
   return (

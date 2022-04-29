@@ -1,5 +1,6 @@
 import React from 'react';
 import MysticalEmoji from '../MysticalEmoji/MysticalEmoji.js';
+import './Parade.css';
 
 export default function Parade({ mysticalCreatures, isOpen, setMysticalCreatures }) {
   function handleFairy(){
