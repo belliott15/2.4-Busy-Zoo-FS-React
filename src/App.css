@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
-body{
-  --color1: #39312e;
-  --color2: #ffbd49;
-  --color3: #fffd63;
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');body{
+  --color1: #1f2b84;
+  --color2: #2983c8;
+  --color3: #c6c340;
   --color4: #92f759;
   --color5: #3ce6ab;
 }
 
 .App {
   text-align: center;
-  background-color: #ffbd49;
+  background-color: var(--color1);
 }
 
 .App-header {
-  background-color: var(--color1);
+  background-color: rgb(184, 184, 184);
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -21,28 +20,48 @@ body{
   justify-content: center;
   font-size: calc(25px + 2vmin);
   font-weight: 500;
-  color: white;
+  color: black;
   padding-left: 30px;
-  font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Marcellus SC', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header-logo{
-    height: 80px;
+    height: 100px;
     position: absolute;
     right: 45px;
     top: 0px;
 }
 
 .App-main{
-  background-color: #ffbd49;
+  background-color: #fcfcfc;
   height: 85vh;
+}
+
+.battle-arena{
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 20vh;
+  width: 100%;
+  border: black solid 2px;
+  background-color: rgb(90, 86, 86);
+  border-radius: 10px;
+}
+
+
+.monster{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 .App-footer{
   background-color: #39312e;
   height: 5vh;
   color: white;
-  font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Marcellus SC', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1.5rem;
   display: flex;
   justify-content: flex-end;
