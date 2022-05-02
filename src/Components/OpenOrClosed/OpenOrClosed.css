@@ -15,6 +15,7 @@
     align-items: center;
     flex-direction: column;
     animation: pulse 5s infinite;
+    padding: 10px;
   }
 
   /* neon off with animation */
