@@ -1,0 +1,48 @@
+.parade-container{
+    height: 30vh;
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .creatures{
+    margin: 0px 7px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parade-buttons button{
+    font-size: 1rem;
+    border: none;
+    margin: 5px;
+    width: 150px;
+    height: 25px;
+    background: linear-gradient(to right, var(--color1) 0%, var(--color4) 90%);
+    background-size: 800px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .parade-buttons button:hover{
+    animation: slider 2s forwards;
+  }
+
+  h2{
+    color: black;
+    border-bottom: solid black 5px;
+  }
+
+  @keyframes slider {
+    0%{
+        background-position: 0%, 50%, 100%;
+    }
+    100%{
+        background-position: 100%;
+        color: black;
+    }
+}
