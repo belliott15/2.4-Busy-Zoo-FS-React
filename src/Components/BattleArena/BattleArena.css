@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,700&display=swap');
 .battle-arena{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: var(--color5);
+    /* font-family: 'Noto Serif Display'; */
 }
 
 .monster{
@@ -14,6 +16,10 @@
     margin: 20px 60px 0px 60px;
     height: 200px;
     width: 200px;
+}
+
+.monster img{
+    animation: pace 3s infinite;
 }
 
 .button-container{
@@ -46,6 +52,18 @@
     100%{
         background-position: 100%;
         color: black;
+    }
+}
+
+@keyframes pace {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0px);
     }
 }
 
