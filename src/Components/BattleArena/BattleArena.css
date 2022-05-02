@@ -42,7 +42,7 @@
 }
 
 .monster button:hover{
-    animation: slider 1s forwards;
+    animation: slider .5s forwards;
 }
 
 @keyframes slider {
