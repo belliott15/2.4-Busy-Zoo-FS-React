@@ -799,4 +799,4 @@ export const customerData = [
     'gender': 'Female',
     'avatar': 'https://robohash.org/aconsequaturquas.png?size=50x50&set=set1'
   }
-]
+];

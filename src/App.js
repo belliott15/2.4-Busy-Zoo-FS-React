@@ -1,36 +1,36 @@
-import Header from './Components/Header/Header.js';
-import Footer from './Components/Footer/Footer.js';
-import OpenOrClosed from './Components/OpenOrClosed/OpenOrClosed.js';
-import Parade from './Components/Parade/Parade.js';
-import { useState } from 'react';
-import './App.css';
-import BattleArena from './Components/BattleArena/BattleArena.js';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+import ZooHome from './ZooHome';
+import AdminPage from './Components/AdminPage/AdminPage';
 
-function App() {
-
-  const [isOpen, setIsOpen] = useState(false);
-  const [chimeraHealth, setChimeraHealth] = useState(10);
-  const [griffinHealth, setGriffinHealth] = useState(10);
-  const [mysticalCreatures, setMysticalCreatures] = useState(['mermaid']);
-
-
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-      <main className='App-main'>
-        <div className='OpenOrClosed'>
-          <OpenOrClosed isOpen={isOpen} setIsOpen={setIsOpen}/>
-        </div>
-        <BattleArena chimeraHealth={chimeraHealth} setChimeraHealth={setChimeraHealth} griffinHealth={griffinHealth} setGriffinHealth={setGriffinHealth} isOpen={isOpen}/>
-        <Parade mysticalCreatures={mysticalCreatures} setMysticalCreatures={setMysticalCreatures} isOpen={isOpen}/>
-      </main>
-      <footer className='App-footer'>
-        <Footer text={'DoYouBelieve@TerrifyingCreatures.com'}/>
-      </footer>
-    </div>
+    <Router>
+      <div className='top'>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/admin">Admin</Link>
+            </li>
+          </ul>
+        </nav>
+        <Switch>
+          <Route path="/admin">
+            <AdminPage />
+          </Route>
+          <Route path="/">
+            <ZooHome />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;

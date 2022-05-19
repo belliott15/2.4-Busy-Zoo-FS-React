@@ -49,4 +49,9 @@
   width: 100%;
 }
 
+.top{
+  background-color: var(--color3);
+  margin: 0 auto;
+}
+
 
