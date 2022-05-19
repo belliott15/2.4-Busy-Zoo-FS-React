@@ -1,6 +1,7 @@
 import React from 'react';
 import MysticalEmoji from '../MysticalEmoji/MysticalEmoji.js';
 import './Parade.css';
+import { SpeedDial, SpeedDialAction, SpeedDialIcon } from '@mui/material';
 
 export default function Parade({ mysticalCreatures, isOpen, setMysticalCreatures }) {
   function handleFairy(){
@@ -23,6 +24,30 @@ export default function Parade({ mysticalCreatures, isOpen, setMysticalCreatures
     mysticalCreatures.shift();
     setMysticalCreatures([...mysticalCreatures]);
   }
+
+  const actions = [
+    // {
+    //   name: 'Mermaid',
+    //   icon: '🧜‍♀️',
+    //   tooltipTitle: 'Add Mermaid',
+    // },
+    {
+      name: 'Fairy',
+      icon: '🧚<',
+      tooltipTitle: 'Add Fairy',
+    },
+    // {
+    //   name: 'Dragon',
+    //   icon: '🐉',
+    //   tooltipTitle: 'Add Dragon',
+    // },
+    {
+      name: 'Genie',
+      icon: '🧞<',
+      tooltipTitle: 'Add Genie',
+    },
+  ];
+
   return (
     <div className='parade-container'>
       <div className='parade-container'>
@@ -35,6 +60,21 @@ export default function Parade({ mysticalCreatures, isOpen, setMysticalCreatures
             <button onClick={() => handleMermaid()}>Mermaid</button>
             <button onClick={() => handleGenie()}>Genie</button>
             <button onClick={() => handleRemoveCreature()}>Remove Creature</button>
+            <SpeedDial
+              ariaLabel="SpeedDial basic example"
+              sx={{ position: 'absolute', bottom: 16, right: 16 }}
+              direction='left'
+              icon={<SpeedDialIcon />}
+            >
+              {actions.map((action) => (
+                <SpeedDialAction
+                  key={action.name}
+                  icon={action.name}
+                  tooltipTitle={action.tooltipTitle}
+                  onClick={'handle' + `${action.name}`}
+                />
+              ))}
+            </SpeedDial>
           </div>
           : ''}
         <div className='creatures'>
