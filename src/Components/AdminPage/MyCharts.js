@@ -1,10 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import { 
   VictoryArea, 
   VictoryChart, 
   VictoryTheme, 
-  VictoryAxis, 
   VictoryPie 
 } from 'victory';
 import { customerData } from '../../customerData';
@@ -28,9 +27,8 @@ export default function MyCharts() {
       acc[language.primary_language]++;
     }
     return acc;
-  });
+  }, []);
   const linguisticsData = Object.entries(language).map(language => {return { x: language[0], y: language[1] };});
-  
   return (
     <div>
       <div className='charts'>
@@ -39,10 +37,11 @@ export default function MyCharts() {
         >
           <VictoryArea data={genderedData}
             horizontal={true}
+            style={{ data: { fill: '#5F465C' } }}
           />
         </VictoryChart>
         <VictoryPie
-          colorScale={['tomato', 'orange', 'gold', 'cyan', 'navy', 'purple', 'gray', 'violet', 'green']}
+          colorScale={['#393E60', '#5F465C', '#AA98A9', 'black', 'navy', 'purple', 'indigo', '#8A626B', 'lavender']}
           data={linguisticsData}
         />
       </div>

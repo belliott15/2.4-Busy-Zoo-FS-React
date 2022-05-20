@@ -77,7 +77,7 @@ export const languageData = [
     'last_name': 'Martill',
     'favroite_color': 'Mauv',
     'gender': 'Female',
-    'primary_language': 'Dzongkha'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 11,
@@ -85,7 +85,7 @@ export const languageData = [
     'last_name': 'Brudenell',
     'favroite_color': 'Mauv',
     'gender': 'Male',
-    'primary_language': 'Kurdish'
+    'primary_language': 'English'
   },
   {
     'id': 12,
@@ -93,7 +93,7 @@ export const languageData = [
     'last_name': 'Caslane',
     'favroite_color': 'Maroon',
     'gender': 'Female',
-    'primary_language': 'Swati'
+    'primary_language': 'French'
   },
   {
     'id': 13,
@@ -109,7 +109,7 @@ export const languageData = [
     'last_name': 'Wetheril',
     'favroite_color': 'Goldenrod',
     'gender': 'Female',
-    'primary_language': 'Azeri'
+    'primary_language': 'French'
   },
   {
     'id': 15,
@@ -133,7 +133,7 @@ export const languageData = [
     'last_name': 'Gutman',
     'favroite_color': 'Turquoise',
     'gender': 'Male',
-    'primary_language': 'Bosnian'
+    'primary_language': 'French'
   },
   {
     'id': 18,
@@ -141,7 +141,7 @@ export const languageData = [
     'last_name': 'Mayzes',
     'favroite_color': 'Purple',
     'gender': 'Male',
-    'primary_language': 'Danish'
+    'primary_language': 'French'
   },
   {
     'id': 19,
@@ -157,7 +157,7 @@ export const languageData = [
     'last_name': 'Blackboro',
     'favroite_color': 'Khaki',
     'gender': 'Female',
-    'primary_language': 'Filipino'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 21,
@@ -165,7 +165,7 @@ export const languageData = [
     'last_name': 'Barizeret',
     'favroite_color': 'Green',
     'gender': 'Male',
-    'primary_language': 'Catalan'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 22,
@@ -173,7 +173,7 @@ export const languageData = [
     'last_name': 'Sparkes',
     'favroite_color': 'Crimson',
     'gender': 'Female',
-    'primary_language': 'Dzongkha'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 23,
@@ -181,7 +181,7 @@ export const languageData = [
     'last_name': 'Haggath',
     'favroite_color': 'Red',
     'gender': 'Male',
-    'primary_language': 'Kashmiri'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 24,
@@ -197,7 +197,7 @@ export const languageData = [
     'last_name': 'Strowlger',
     'favroite_color': 'Goldenrod',
     'gender': 'Female',
-    'primary_language': 'New Zealand Sign Language'
+    'primary_language': 'Māori'
   },
   {
     'id': 26,
@@ -221,7 +221,7 @@ export const languageData = [
     'last_name': 'Gomersall',
     'favroite_color': 'Pink',
     'gender': 'Female',
-    'primary_language': 'Afrikaans'
+    'primary_language': 'Spanish'
   },
   {
     'id': 29,
@@ -229,7 +229,7 @@ export const languageData = [
     'last_name': 'Brant',
     'favroite_color': 'Green',
     'gender': 'Female',
-    'primary_language': 'Chinese'
+    'primary_language': 'Spanish'
   },
   {
     'id': 30,
@@ -237,7 +237,7 @@ export const languageData = [
     'last_name': 'Kneller',
     'favroite_color': 'Mauv',
     'gender': 'Male',
-    'primary_language': 'Hungarian'
+    'primary_language': 'Spanish'
   },
   {
     'id': 31,
@@ -245,7 +245,7 @@ export const languageData = [
     'last_name': 'Deverock',
     'favroite_color': 'Goldenrod',
     'gender': 'Genderqueer',
-    'primary_language': 'Kyrgyz'
+    'primary_language': 'Spanish'
   },
   {
     'id': 32,
@@ -261,7 +261,7 @@ export const languageData = [
     'last_name': 'Brashier',
     'favroite_color': 'Violet',
     'gender': 'Male',
-    'primary_language': 'New Zealand Sign Language'
+    'primary_language': 'Tajik'
   },
   {
     'id': 34,
@@ -277,7 +277,7 @@ export const languageData = [
     'last_name': 'Ballentime',
     'favroite_color': 'Puce',
     'gender': 'Male',
-    'primary_language': 'Filipino'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 36,
@@ -285,7 +285,7 @@ export const languageData = [
     'last_name': 'Bareham',
     'favroite_color': 'Khaki',
     'gender': 'Female',
-    'primary_language': 'Albanian'
+    'primary_language': 'Punjabi'
   },
   {
     'id': 37,
@@ -325,7 +325,7 @@ export const languageData = [
     'last_name': 'Ferminger',
     'favroite_color': 'Teal',
     'gender': 'Male',
-    'primary_language': 'Northern Sotho'
+    'primary_language': 'Arabic'
   },
   {
     'id': 42,
@@ -349,7 +349,7 @@ export const languageData = [
     'last_name': 'Adnam',
     'favroite_color': 'Pink',
     'gender': 'Female',
-    'primary_language': 'Armenian'
+    'primary_language': 'French'
   },
   {
     'id': 45,
@@ -373,7 +373,7 @@ export const languageData = [
     'last_name': 'Martynka',
     'favroite_color': 'Yellow',
     'gender': 'Male',
-    'primary_language': 'Moldovan'
+    'primary_language': 'Latvian'
   },
   {
     'id': 48,
@@ -381,7 +381,7 @@ export const languageData = [
     'last_name': 'Brewett',
     'favroite_color': 'Turquoise',
     'gender': 'Male',
-    'primary_language': 'Catalan'
+    'primary_language': 'German'
   },
   {
     'id': 49,
@@ -389,7 +389,7 @@ export const languageData = [
     'last_name': 'Thorns',
     'favroite_color': 'Goldenrod',
     'gender': 'Male',
-    'primary_language': 'Armenian'
+    'primary_language': 'French'
   },
   {
     'id': 50,
@@ -397,7 +397,7 @@ export const languageData = [
     'last_name': 'Swafford',
     'favroite_color': 'Goldenrod',
     'gender': 'Female',
-    'primary_language': 'Swati'
+    'primary_language': 'French'
   },
   {
     'id': 51,
@@ -405,7 +405,7 @@ export const languageData = [
     'last_name': 'Quarry',
     'favroite_color': 'Teal',
     'gender': 'Male',
-    'primary_language': 'Irish Gaelic'
+    'primary_language': 'French'
   },
   {
     'id': 52,
@@ -437,7 +437,7 @@ export const languageData = [
     'last_name': 'Tabner',
     'favroite_color': 'Indigo',
     'gender': 'Male',
-    'primary_language': 'Telugu'
+    'primary_language': 'Tagalog'
   },
   {
     'id': 56,
@@ -461,7 +461,7 @@ export const languageData = [
     'last_name': 'Butterick',
     'favroite_color': 'Green',
     'gender': 'Non-binary',
-    'primary_language': 'Pashto'
+    'primary_language': 'Portuguese'
   },
   {
     'id': 59,
@@ -477,7 +477,7 @@ export const languageData = [
     'last_name': 'Baselio',
     'favroite_color': 'Aquamarine',
     'gender': 'Male',
-    'primary_language': 'Malayalam'
+    'primary_language': 'Punjabi'
   },
   {
     'id': 61,
@@ -485,7 +485,7 @@ export const languageData = [
     'last_name': 'Mallya',
     'favroite_color': 'Goldenrod',
     'gender': 'Female',
-    'primary_language': 'Montenegrin'
+    'primary_language': 'German'
   },
   {
     'id': 62,
@@ -493,7 +493,7 @@ export const languageData = [
     'last_name': 'Coursor',
     'favroite_color': 'Mauv',
     'gender': 'Male',
-    'primary_language': 'Sotho'
+    'primary_language': 'German'
   },
   {
     'id': 63,
@@ -509,7 +509,7 @@ export const languageData = [
     'last_name': 'Choat',
     'favroite_color': 'Violet',
     'gender': 'Male',
-    'primary_language': 'Armenian'
+    'primary_language': 'French'
   },
   {
     'id': 65,
@@ -517,7 +517,7 @@ export const languageData = [
     'last_name': 'Casaccio',
     'favroite_color': 'Yellow',
     'gender': 'Non-binary',
-    'primary_language': 'Montenegrin'
+    'primary_language': 'German'
   },
   {
     'id': 66,
@@ -541,7 +541,7 @@ export const languageData = [
     'last_name': 'Zylbermann',
     'favroite_color': 'Teal',
     'gender': 'Female',
-    'primary_language': 'Northern Sotho'
+    'primary_language': 'German'
   },
   {
     'id': 69,
@@ -549,7 +549,7 @@ export const languageData = [
     'last_name': 'Tregonna',
     'favroite_color': 'Green',
     'gender': 'Female',
-    'primary_language': 'Belarusian'
+    'primary_language': 'German'
   },
   {
     'id': 70,
@@ -557,7 +557,7 @@ export const languageData = [
     'last_name': 'McMorran',
     'favroite_color': 'Pink',
     'gender': 'Female',
-    'primary_language': 'Croatian'
+    'primary_language': 'Italian'
   },
   {
     'id': 71,
@@ -565,7 +565,7 @@ export const languageData = [
     'last_name': 'Dredge',
     'favroite_color': 'Mauv',
     'gender': 'Female',
-    'primary_language': 'Gujarati'
+    'primary_language': 'German'
   },
   {
     'id': 72,
@@ -589,7 +589,7 @@ export const languageData = [
     'last_name': 'Levicount',
     'favroite_color': 'Mauv',
     'gender': 'Male',
-    'primary_language': 'Latvian'
+    'primary_language': 'Italian'
   },
   {
     'id': 75,
@@ -597,7 +597,7 @@ export const languageData = [
     'last_name': 'Boydell',
     'favroite_color': 'Red',
     'gender': 'Male',
-    'primary_language': 'Assamese'
+    'primary_language': 'Croatian'
   },
   {
     'id': 76,
@@ -605,7 +605,7 @@ export const languageData = [
     'last_name': 'Dines',
     'favroite_color': 'Blue',
     'gender': 'Male',
-    'primary_language': 'Persian'
+    'primary_language': 'Croatian'
   },
   {
     'id': 77,
@@ -613,7 +613,7 @@ export const languageData = [
     'last_name': 'Magowan',
     'favroite_color': 'Teal',
     'gender': 'Male',
-    'primary_language': 'Dhivehi'
+    'primary_language': 'Croatian'
   },
   {
     'id': 78,
@@ -629,7 +629,7 @@ export const languageData = [
     'last_name': 'Rama',
     'favroite_color': 'Goldenrod',
     'gender': 'Male',
-    'primary_language': 'Moldovan'
+    'primary_language': 'Croatian'
   },
   {
     'id': 80,
@@ -637,7 +637,7 @@ export const languageData = [
     'last_name': 'Denty',
     'favroite_color': 'Crimson',
     'gender': 'Male',
-    'primary_language': 'Quechua'
+    'primary_language': 'Croatian'
   },
   {
     'id': 81,
@@ -645,7 +645,7 @@ export const languageData = [
     'last_name': 'MacNeillie',
     'favroite_color': 'Mauv',
     'gender': 'Female',
-    'primary_language': 'Aymara'
+    'primary_language': 'Croatian'
   },
   {
     'id': 82,
@@ -653,7 +653,7 @@ export const languageData = [
     'last_name': 'Chaudhry',
     'favroite_color': 'Maroon',
     'gender': 'Female',
-    'primary_language': 'Tetum'
+    'primary_language': 'Croatian'
   },
   {
     'id': 83,
@@ -669,7 +669,7 @@ export const languageData = [
     'last_name': 'Jiras',
     'favroite_color': 'Blue',
     'gender': 'Male',
-    'primary_language': 'Pashto'
+    'primary_language': 'Punjabi'
   },
   {
     'id': 85,
@@ -685,7 +685,7 @@ export const languageData = [
     'last_name': 'Bangiard',
     'favroite_color': 'Pink',
     'gender': 'Male',
-    'primary_language': 'Guaraní'
+    'primary_language': 'Korean'
   },
   {
     'id': 87,
@@ -693,7 +693,7 @@ export const languageData = [
     'last_name': 'Evins',
     'favroite_color': 'Teal',
     'gender': 'Female',
-    'primary_language': 'Malayalam'
+    'primary_language': 'Korean'
   },
   {
     'id': 88,
@@ -709,7 +709,7 @@ export const languageData = [
     'last_name': 'McCann',
     'favroite_color': 'Khaki',
     'gender': 'Male',
-    'primary_language': 'Sotho'
+    'primary_language': 'Korean'
   },
   {
     'id': 90,
@@ -717,7 +717,7 @@ export const languageData = [
     'last_name': 'Just',
     'favroite_color': 'Turquoise',
     'gender': 'Male',
-    'primary_language': 'Romanian'
+    'primary_language': 'Korean'
   },
   {
     'id': 91,
@@ -725,7 +725,7 @@ export const languageData = [
     'last_name': 'Aish',
     'favroite_color': 'Blue',
     'gender': 'Male',
-    'primary_language': 'Fijian'
+    'primary_language': 'Korean'
   },
   {
     'id': 92,
@@ -733,7 +733,7 @@ export const languageData = [
     'last_name': 'Aristide',
     'favroite_color': 'Mauv',
     'gender': 'Female',
-    'primary_language': 'Estonian'
+    'primary_language': 'Korean'
   },
   {
     'id': 93,
@@ -741,7 +741,7 @@ export const languageData = [
     'last_name': "O'Luney",
     'favroite_color': 'Fuscia',
     'gender': 'Female',
-    'primary_language': 'Finnish'
+    'primary_language': 'Korean'
   },
   {
     'id': 94,
@@ -757,7 +757,7 @@ export const languageData = [
     'last_name': 'Casado',
     'favroite_color': 'Purple',
     'gender': 'Male',
-    'primary_language': 'Bislama'
+    'primary_language': 'Korean'
   },
   {
     'id': 96,
@@ -765,7 +765,7 @@ export const languageData = [
     'last_name': 'Maidens',
     'favroite_color': 'Crimson',
     'gender': 'Male',
-    'primary_language': 'Malagasy'
+    'primary_language': 'Korean'
   },
   {
     'id': 97,
@@ -773,7 +773,7 @@ export const languageData = [
     'last_name': 'Maidlow',
     'favroite_color': 'Aquamarine',
     'gender': 'Female',
-    'primary_language': 'Swati'
+    'primary_language': 'French'
   },
   {
     'id': 98,
@@ -781,7 +781,7 @@ export const languageData = [
     'last_name': 'McKeowon',
     'favroite_color': 'Fuscia',
     'gender': 'Male',
-    'primary_language': 'Zulu'
+    'primary_language': 'Korean'
   },
   {
     'id': 99,
@@ -789,7 +789,7 @@ export const languageData = [
     'last_name': 'Silman',
     'favroite_color': 'Yellow',
     'gender': 'Genderfluid',
-    'primary_language': 'Dutch'
+    'primary_language': 'Korean'
   },
   {
     'id': 100,
@@ -797,6 +797,6 @@ export const languageData = [
     'last_name': 'Trodden',
     'favroite_color': 'Teal',
     'gender': 'Male',
-    'primary_language': 'Hindi'
+    'primary_language': 'Korean'
   }
 ];
