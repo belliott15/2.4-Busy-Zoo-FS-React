@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import MaterialTable from 'material-table';
 import { customerData } from '../../customerData';
+import './AdminPage.css';
 
 export default function MyTable() {
   return (
-    <div style={{ maxWidth: '100%', fontSize: 15 }}>
+    <div className='table' style={{ maxWidth: '100%', fontSize: 15 }}>
       <MaterialTable
         columns={[
           { title: 'Id', field: 'id' },
