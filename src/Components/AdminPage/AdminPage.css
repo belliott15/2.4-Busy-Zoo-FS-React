@@ -1,0 +1,7 @@
+.charts{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D0C2A8;
+}

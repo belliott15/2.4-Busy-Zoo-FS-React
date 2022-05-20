@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,700&display=swap');
+.battle-arena{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color5);
+    /* font-family: 'Noto Serif Display'; */
+}
+
+.monster{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 60px 0px 60px;
+    height: 200px;
+    width: 200px;
+}
+
+.monster img{
+    animation: pace 3s infinite;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monster button{
+    font-size: 1rem;
+    border: none;
+    margin: 5px;
+    width: 150px;
+    height: 25px;
+    background: linear-gradient(to right, var(--color1) 0%, var(--color3) 90%);
+    background-size: 800px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.monster button:hover{
+    animation: slider .5s forwards;
+}
+
+@keyframes slider {
+    0%{
+        background-position: 0%, 50%, 100%;
+    }
+    100%{
+        background-position: 100%;
+        color: black;
+    }
+}
+
+@keyframes pace {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.vsImage{
+    height: 100px;
+}
