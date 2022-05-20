@@ -8,6 +8,7 @@ import {
   VictoryPie 
 } from 'victory';
 import { customerData } from '../../customerData';
+import { languageData } from '../../LanguageData';
 
 export default function MyCharts() {
   const genderData = customerData.reduce((acc, customer) => {
@@ -19,6 +20,16 @@ export default function MyCharts() {
     return acc;
   }, []);
   const genderedData = Object.entries(genderData).map((gender) => {return { x: gender[0], y: gender[1] };});
+
+  const language = languageData.reduce((acc, language) => {
+    if (!acc[language.primary_language]){
+      acc[language.primary_language] = 1;
+    } else {
+      acc[language.primary_language]++;
+    }
+    return acc;
+  });
+  const linguisticsData = Object.entries(language).map(language => {return { x: language[0], y: language[1] };});
   
   return (
     <div>
@@ -26,19 +37,13 @@ export default function MyCharts() {
         <VictoryChart
           theme={VictoryTheme.material}
         >
-          <VictoryArea data={[
-            { x: 1, y: 2, y0: 0 },
-            { x: 2, y: 3, y0: 1 },
-            { x: 3, y: 5, y0: 1 },
-            { x: 4, y: 4, y0: 2 },
-            { x: 5, y: 6, y0: 2 }
-          ]}
+          <VictoryArea data={genderedData}
+            horizontal={true}
           />
-          <VictoryAxis />
         </VictoryChart>
         <VictoryPie
           colorScale={['tomato', 'orange', 'gold', 'cyan', 'navy', 'purple', 'gray', 'violet', 'green']}
-          data={genderedData}
+          data={linguisticsData}
         />
       </div>
     </div>
